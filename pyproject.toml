@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "test-cov"
+version = "0.1.0"
+description = ""
+authors = ["Jakub Lechowski <b.kuba.13@gmail.com>"]
+readme = "README.md"
+packages = [{include = "test_cov"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.2.0"
+coverage = "^6.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
